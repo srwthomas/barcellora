@@ -20,6 +20,16 @@
   }
 }
 
+.gifBanner {
+  display: flex;
+  justify-content: center;
+}
+
+.gifImage {
+  height: 350px;
+  width: 350px;
+}
+
 // Styling + font + position of contact text ( email, address )
 .contactText {
   h5 {
@@ -48,6 +58,22 @@
   align-items: center;
   justify-content: end;
 }
+
+// donate section
+
+.donateButton {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  justify-content: center;
+}
+
+.donateBtn {
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+  font-size: 2em;
+}
+
 
 // Media Breakpoints (when screen is resized ie. for Iphone / Samsung, tablets etc (smaller/larger)
 

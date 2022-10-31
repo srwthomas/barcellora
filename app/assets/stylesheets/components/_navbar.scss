@@ -1,40 +1,27 @@
 // General placement of all pieces of nav bar (Name + links)
 .navbar {
-  padding-top: 0.8em;
-  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.bgImg {
+  background-image: url(asset_path('barcellora.png'));
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
 }
 
 // Navbar links
-.titleLink {
-  color: black;
-  text-decoration: none;
-  font-family: 'Smooch Sans', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
-  margin-left: 2em;
-  letter-spacing: 0.2rem;
-  &:hover {
-    color:rgb(48, 25, 52);
-  }
-}
-
-.tagline {
-  color: grey;
-  text-decoration: none;
-  font-family: 'Smooch Sans', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 200;
-
-  &:hover {
-    color:rgb(48, 25, 52);
-  }
-}
-
-// #titles {
-//   justify-content: space-around;
-// }
 
 .nav-item {
+  margin-top: 18em;
+  margin-right: 2em;
   padding:1rem;
   a {
     color: grey;
@@ -44,7 +31,7 @@
     font-size: 1.2rem;
   }
   a:hover {
-    color: black;
+    color: red;
   }
 }
 
@@ -56,9 +43,7 @@
     padding-top: 0.8em;
     padding-bottom: 0.5rem;
   }
-  .titleLink {
-    font-size: 1.9rem
-  }
+
   .nav-item {
     padding-right: 0;
     margin-right: 0;
