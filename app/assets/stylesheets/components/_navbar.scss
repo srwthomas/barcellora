@@ -1,12 +1,13 @@
 // General placement of all pieces of nav bar (Name + links)
 .navbar {
   margin-bottom: 2rem;
+  flex-direction: column;
 }
 
 .bgImg {
-  background-image: url(asset_path('barcellora.png'));
+  background-image: url(asset_path('barcelloraHeadWeb.jpg'));
 
-  min-height: 380px;
+  height:31.25rem;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -18,22 +19,26 @@
 }
 
 // Navbar links
-
-.nav-item {
-  margin-top: 18em;
-  margin-right: 2em;
-  padding:1rem;
-  a {
-    color: grey;
-    font-family: 'Smooch Sans', sans-serif;
-    font-weight: lighter;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  a:hover {
-    color: red;
-  }
+.nav-links {
+  margin-top: 31em;
+  margin-right:60em;
 }
+
+// .nav1 {
+//   height: 20px;
+//   width: 20px;
+// }
+
+.nav-item:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+// navRow
 
 // media queries (resizing)
 // All devices up to a width of 575 px = Most mobile Phones
@@ -76,12 +81,6 @@
     font-size: 1rem;
     letter-spacing: 0.1rem;
   }
-  #titles {
-    display: flex;
-    flex-wrap: inherit;
-    align-items: revert;
-    text-align: left;
-    }
   .navbar-toggler {
     margin-left: 80% !important;
   }
@@ -113,8 +112,7 @@
 @media (max-width: 1300px) {
   .navbar {
     padding-top: 1em;
-    padding-bottom: 0.9rem;
-  }
+    padding-bottom: 3em;  }
   .titleLink {
     margin-left: 0;
   }
@@ -122,12 +120,3 @@
     padding-right: 0;
   }
 }
-
-// .nav-item:active {
-//   a {
-//     color: black;
-//   }
-// }
-
-// <%= 'active' if current_page?(contact_path) %>
-// <%= 'active' if current_page?(root_path) %>

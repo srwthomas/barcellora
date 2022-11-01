@@ -1,27 +1,22 @@
 <nav class="navbar navbar-expand-lg navbar-light bgImg">
-  <div class="container">
-    <%# <div id="headerImg">
-      <a class="navbar-brand" href="/" style="float:none">
-        <%= image_tag "barcellora.png", width:1000 %>
-      <%# </a> %>
+  <div class="collapse navbar-collapse navRow" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-links">
+      <li class="nav-item nav1">
+        <%= link_to root_path do %>
+          <%=  image_tag "episodesBtn.png", width:215, height:42 %>
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to contact_path do %>
+          <%=  image_tag "infoBtn.png", width:155, height:45 %>
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "#{contact_path}#donateButton" do %>
+          <%=  image_tag "donateBtn.jpg", width:165, height:50 %>
+        <% end %>
+      </li>
+    </ul>
   </div>
-
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-links">
-            <li class="nav-item">
-              <%= link_to "videos", root_path %>
-            </li>
-            <li class="nav-item">
-              <%= link_to "info", contact_path %>
-            </li>
-            <li class="nav-item">
-              <%= link_to 'donate!', "#{contact_path}#donateButton" %>
-            </li>
-         </ul>
-      </div>
-
-
-
-   </div>
+   <%# </div> %>
 </nav>
