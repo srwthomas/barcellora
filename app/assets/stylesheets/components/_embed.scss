@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 1em;
+  margin-top:2em
 }
 
 #embed {
@@ -11,6 +12,13 @@
   justify-content: center;
 }
 
+#videos {
+  margin-top: 2em;
+}
+
+.titleEpisode {
+  text-align: center;
+}
 // Media breakpoints (screen resizing everything below 600px (phones) will recieve settings
  @media (max-width: 600px) {
   iframe {

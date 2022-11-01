@@ -3,26 +3,37 @@
   <%# Video containers - replace only section inside div called embedVid --> iframe with link from  %>
   <%# To replace embeded video copy/paste section between <iframe .....<></iframe> %>
   <%# Order First Video At TOP Of Site  %>
+
+  <%# Gif %>
   <div class= "gifBanner">
       <a class="gifLink" href="/" style="float:none">
         <%= image_tag "barcellora.gif", width:1000, height:500 %>
       </a>
   </div>
 
-  <div class="embedVid">
-    <iframe width="859" height="315" src="https://www.youtube.com/embed/N1vFKt9gF-Q?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+  <%#  %>
 
-  <div class="embedVid">
-    <iframe width="859" height="315" src="https://www.youtube.com/embed/zE_B6hANcHE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
 
-  <div class="embedVid">
-    <iframe width="859" height="315" src="https://www.youtube.com/embed/4v75R7drxUw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+  <div id="videos">
+    <div class="titleEpisode">
+      <%= image_tag "episodesBtn.png", width:215, height:42 %>
+    </div>
 
-  <div id="donateButton">
-          <a class="donateBtn btn btn-success" href="#">
-            <i class="fa fa-money fa-6"></i> Donate <i class="fa fa-money fa-6"></i> </a>
-      </div>
+    <div class="embedVid">
+      <iframe width="859" height="315" src="https://www.youtube.com/embed/N1vFKt9gF-Q?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="embedVid">
+      <iframe width="859" height="315" src="https://www.youtube.com/embed/zE_B6hANcHE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="embedVid">
+      <iframe width="859" height="315" src="https://www.youtube.com/embed/4v75R7drxUw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="donateButton">
+      <a class="donateBtn btn btn-success" href="#">
+        <i class="fa fa-money fa-6"></i> Donate <i class="fa fa-money fa-6"></i> </a>
+    </div>
+  </div>
 </div>

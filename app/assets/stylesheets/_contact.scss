@@ -8,22 +8,16 @@
 }
 
 // Styling + font + position of title
-.title {
+#title {
+  margin-top: 2em;
   text-align: center;
   justify-content: center;
-  font-family: 'Smooch Sans', sans-serif;
-  padding: 2.5rem;
-  h2 {
-    font-size: 1.7rem;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
-  }
 }
 
 .gifBanner {
   display: flex;
   justify-content: center;
-  margin-top: 4.5em;
+  margin-top: 4em;
 }
 
 .gifImage {

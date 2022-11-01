@@ -18,11 +18,15 @@ hr {
   margin: 0.25rem;
   padding: 0.5em;
   color: #212529;
+  font-size: 2em;
   &:hover {
-    color: lightgray;
+    color: green;
   }
 }
 
+.instaI:hover {
+  color: purple;
+}
 // media queries (resizing)
 // All devices up to a width of 575 px = Most mobile Phones
 // @media (max-width: 575.98px) {
