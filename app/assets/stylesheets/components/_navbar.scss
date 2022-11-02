@@ -44,26 +44,39 @@
 // All devices up to a width of 575 px = Most mobile Phones
 @media (max-width: 575.98px) {
   .navbar {
-    display: flex;
+    flex-direction: column;
     padding-top: 0.8em;
     padding-bottom: 0.5rem;
   }
+  // .nav-item {
+  //   padding-right: 0;
+  //   margin-right: 0;
+  // }
 
-  .nav-item {
-    padding-right: 0;
-    margin-right: 0;
+  .nav-links {
+    text-align: center;
+    display: table-cell;
+    // justify-content: center;
   }
-  #titles {
-    display: flex;
-    flex-wrap: inherit;
-    align-items: revert;
-    text-align: left;
+
+  .nav1 {
+    margin-top: 14em;
   }
-  .navbar-toggler {
-    margin-left: 80% !important;
+
+  .bgImg {
+    background-image: url(asset_path('barcelloraHeadMob.jpg'));
+    height: 15em;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    /* Needed to position the navbar */
+    position: relative;
   }
-  .tagline {
-    font-size: 1.6rem;
+  .gifBanner {
+    margin-top: 9em !important;
   }
 }
 
