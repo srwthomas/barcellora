@@ -7,7 +7,8 @@
 .bgImg {
   background-image: url(asset_path('barcelloraHeadWeb.jpg'));
 
-  height:31.25rem;
+  height: 31.25rem;
+  width: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -38,7 +39,9 @@
     transition: all 1s ease;
 }
 
-// navRow
+.navRow {
+  margin-top: 1em;
+}
 
 // media queries (resizing)
 // All devices up to a width of 575 px = Most mobile Phones

@@ -25,6 +25,10 @@
   width: 350px;
 }
 
+// .teamPic {
+//   padding-right: 1.5em;
+// }
+
 // Styling + font + position of contact text ( email, address )
 .contactText {
   h5 {
@@ -41,11 +45,7 @@
 }
 
 // Styling + position of image setting the general size (affected by resiziing on different sized devices - more below)
-.contactImage {
-  width: 90%;
-  height: 90%;
-  object-fit: cover;
-}
+
 
 // Image section
 .imageText {
@@ -86,7 +86,7 @@
   .imageText {
     justify-content: center;
   }
-  .contactImage {
+  .teamPic {
     width: 110%;
     height: 110%;
   }
