@@ -20,38 +20,23 @@
   margin-top: 4em;
 }
 
-.gifImage {
-  height: 350px;
-  width: 350px;
-}
+.teamPic {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+ }
 
 .gifLink {
   margin-top: 2em;
 }
 
-// Styling + font + position of contact text ( email, address )
-.contactText {
-  h5 {
-    font-size: 1.4rem;
-    font-weight: 200;
-    line-height: 1.7rem;
-    letter-spacing: 0.2rem;
-  }
-}
-
-// Ensures text is in a box with space around the outside of it (the text)
-.textBox {
-  justify-content: space-around;
-}
-
-// Styling + position of image setting the general size (affected by resiziing on different sized devices - more below)
-
-
-// Image section
-.imageText {
-  display:flex;
-  align-items: center;
-  justify-content: end;
+// Styling + font + position of info text ( email, address )
+h5.overHead {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 // donate section
@@ -74,17 +59,8 @@
 
 // All devices up to a width of 575 px = Most mobile Phones
 @media (max-width: 600px) {
-  .layout {
-    display: flex;
-    align-items: center;
-    font-family: 'Smooch Sans', sans-serif;
-    padding: 2em;
-  }
   .title h2 {
     font-size: 1.2rem;
-  }
-  .imageText {
-    justify-content: center;
   }
   .teamPic {
     width: 100%;
@@ -93,10 +69,12 @@
   .footerContainer {
     margin-top: 10rem;
   }
-  .contactText h5 {
-    font-size: 0.7rem;
-    line-height: 1rem;
-    letter-spacing: 0.2rem;
+  h5.overHead {
+    font-size: 1rem;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.23rem;
+    line-height: 1.5em;
   }
   img.gifLink{
     height: 405px;
@@ -110,10 +88,12 @@
     align-items: center;
     justify-content:end;
   }
-  .contactText h5 {
-    font-size: 0.8rem;
-    letter-spacing: 0.1rem;
-    font-weight: 400;
+  h5.overHead {
+    font-size: 1rem;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
   }
   .title, h2 {
       font-size: 1rem;
@@ -122,39 +102,11 @@
     }
 }
 
-// Everything below normal 11-12inch laptop (tablet, big phone etc)
-@media (min-width: 700px) {
-  .layout {
-    display: flex;
-    align-items: center;
-    font-family: 'Smooch Sans', sans-serif;
-    padding: 2em;
-  }
-  .imageLayout{
-    display:flex;
-    align-items: center;
-    justify-content:end;
-  }
-  .contactText h5 {
-    font-size: 1rem;
-    letter-spacing: 0.23rem;
-    font-weight: bolder;
-  }
-  .footerContainer {
-    margin-top: 10rem;
-  }
-  // .title, h2 {
-  //     font-size: 1.7rem;
-  //     font-weight: 200;
-  //     letter-spacing: 0.2rem;
-  //   }
-}
-
 // Sets image to be stuck close to contact-text on screens larger than 1300px (most laptops)
-@media (min-width: 1250px) {
-  .imageLayout{
-    display:flex;
-    align-items: center;
-    justify-content:end;
-  }
-}
+// @media (min-width: 1250px) {
+//   .imageLayout{
+//     display:flex;
+//     align-items: center;
+//     justify-content:end;
+//   }
+// }
