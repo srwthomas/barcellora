@@ -25,9 +25,9 @@
   width: 350px;
 }
 
-// .teamPic {
-//   padding-right: 1.5em;
-// }
+.gifLink {
+  margin-top: 2em;
+}
 
 // Styling + font + position of contact text ( email, address )
 .contactText {
@@ -87,7 +87,7 @@
     justify-content: center;
   }
   .teamPic {
-    width: 110%;
+    width: 100%;
     height: 110%;
   }
   .footerContainer {
@@ -97,6 +97,10 @@
     font-size: 0.7rem;
     line-height: 1rem;
     letter-spacing: 0.2rem;
+  }
+  img.gifLink{
+    height: 405px;
+    width: 400px;
   }
 }
 
