@@ -18,11 +18,12 @@
   <h5 class="overHead">If you want to help barcellora grow and support this cartoon, and its community, you can donate to us by clicking the big green donate button below! You can choose any amount of money, no donation is to big or small it all helps to support us. We’re planning and developing different possiblities to grow this organization and improve it continuously. The money from the donations would be used to buy better tools and programs for improving the animations and effects, also to pay for the voice over actors and animators {and all the other junkies involved in the productions}. Stay tuned for more updates on our instagram page @barcellora_cartoon {there are many more things coming}!</h5>
 
   <div id="donateButton">
-    <a href="https://buy.stripe.com/bIY16ya436nIgLeeUU">
-      <%=  image_tag "btnDonate.png", class:"donateGuys" %>
- </a>
+    <%= link_to 'https://buy.stripe.com/bIY16ya436nIgLeeUU' do %>
+      <%= image_tag("btnDonate.png", class:"donateGuys") %>
+    <% end %>
   </div>
-  <div>
-    <h5 style="margin-top:1.2em;">↑press here 2 donate↑</h5>
+
+  <div class="donateRemind">
+    <h5>↑press here 2 donate↑</h5>
   </div>
 </div>

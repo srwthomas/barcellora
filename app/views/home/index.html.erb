@@ -49,9 +49,9 @@
     </div>
 
     <div id="donateButton">
-      <a href="https://buy.stripe.com/bIY16ya436nIgLeeUU">
-          <%=  image_tag "btnDonate.png", class:"donateGuys" %>
-      </a>
+      <%= link_to 'https://buy.stripe.com/bIY16ya436nIgLeeUU' do %>
+        <%= image_tag("btnDonate.png", class:"donateGuys") %>
+      <% end %>
     </div>
   </div>
 </div>
