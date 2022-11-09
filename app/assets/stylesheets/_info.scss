@@ -50,12 +50,6 @@ h5.overHead {
   justify-content: center;
 }
 
-// .donateBtn {
-//   padding-top: 1.4em;
-//   padding-bottom: 1.4em;
-//   font-size: 2em;
-// }
-
 .donateGuys {
   height: 400px;
   width: 600px;
@@ -65,13 +59,21 @@ h5.overHead {
   &:hover {
     animation-name: donateGuys;
     animation-timing-function: ease-in-out;
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
   }
 }
 @keyframes donateGuys {
   0%   { transform: translateY(0); }
-  50%  { transform: translateY(+50px); }
+  50%  { transform: translateY(+40px); }
   100% { transform: translateY(0); }
 }
+
+
 
 // Media Breakpoints (when screen is resized ie. for Iphone / Samsung, tablets etc (smaller/larger)
 
