@@ -1,11 +1,11 @@
 // Page style container box centering etc
-.layout {
-  display: flex;
-  // justify-content: space-around;
-  align-items: center;
-  font-family: 'Smooch Sans', sans-serif;
-  padding: 2em;
-}
+// .layout {
+//   display: flex;
+//   // justify-content: space-around;
+//   align-items: center;
+//   font-family: 'Smooch Sans', sans-serif;
+//   padding: 2em;
+// }
 
 // Styling + font + position of title
 #title {
@@ -32,8 +32,10 @@
 
 // Styling + font + position of info text ( email, address )
 h5.overHead {
+  font-family: 'Smooch Sans', sans-serif;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
+
   line-height: 3rem;
   letter-spacing: 0.2rem;
   text-align: center;
