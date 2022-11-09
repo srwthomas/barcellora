@@ -36,20 +36,12 @@ a.footer_link {
 }
 // media queries (resizing)
 // All devices up to a width of 575 px = Most mobile Phones
-// @media (max-width: 575.98px) {
-//   #footer {
-//     padding-top: 0.8em;
-//     padding-bottom: 0.5rem;
-//   }
-//   hr {
-//     padding-right: 0;
-//     margin-right: 0;
-//   }
-//   .social-icon a {
-//     margin: 0.25rem;
-//     padding: 0.5em;
-//   }
-// }
+@media (max-width: 700px) {
+  .social-icon {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+}
 
 // // small phone screen
 // @media (max-width: 400px) {
