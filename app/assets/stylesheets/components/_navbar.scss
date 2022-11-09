@@ -49,17 +49,17 @@
     padding-top: 0.8em;
     padding-bottom: 0.5rem;
   }
-
   .nav-links {
     text-align: center;
     display: table-cell;
     // justify-content: center;
   }
-
+  .navRow {
+    margin-right: 1.1em;
+  }
   .nav1 {
     margin-top: 14em;
   }
-
   .bgImg {
     background-image: url(asset_path('barcelloraHeadMob.jpg'));
     height: 15em;
