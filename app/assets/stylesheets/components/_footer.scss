@@ -27,6 +27,13 @@ hr {
 .instaI:hover {
   color: purple;
 }
+
+a.footer_link {
+  text-decoration: none;
+  &:hover {
+    color: darkblue;
+  }
+}
 // media queries (resizing)
 // All devices up to a width of 575 px = Most mobile Phones
 // @media (max-width: 575.98px) {

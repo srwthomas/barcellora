@@ -2,7 +2,7 @@
   <div class=" navRow" id="navbarSupportedContent">
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-links">
       <li class="nav-item nav1">
-        <%= link_to "#{root_path}#videos" do %>
+        <%= link_to root_path(anchor: 'videos') do %>
           <%=  image_tag "episodesBtn.png", width:215, height:42 %>
         <% end %>
       </li>
