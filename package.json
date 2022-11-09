@@ -1,5 +1,5 @@
 {
-  "name": "sybren-page",
+  "name": "barcellora",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
