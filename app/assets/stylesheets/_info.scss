@@ -50,15 +50,27 @@ h5.overHead {
   justify-content: center;
 }
 
-.donateBtn {
-  padding-top: 1.4em;
-  padding-bottom: 1.4em;
-  font-size: 2em;
-}
+// .donateBtn {
+//   padding-top: 1.4em;
+//   padding-bottom: 1.4em;
+//   font-size: 2em;
+// }
 
 .donateGuys {
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  &:hover {
+    animation-name: donateGuys;
+    animation-timing-function: ease-in-out;
+  }
+}
+@keyframes donateGuys {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(+50px); }
+  100% { transform: translateY(0); }
 }
 
 // Media Breakpoints (when screen is resized ie. for Iphone / Samsung, tablets etc (smaller/larger)
@@ -68,11 +80,6 @@ h5.overHead {
   .donateGuys {
     height: 230px;
     width: 310px;
-  }
-  .imageLayout{
-    display:flex;
-    align-items: center;
-    justify-content:end;
   }
   h5.overHead {
     font-size: 1rem;
@@ -86,10 +93,6 @@ h5.overHead {
       font-weight: 200;
       letter-spacing: 0.2rem;
     }
-  // img.gifLink{
-  //   height: 400px;
-  //   width: 370px;
-  // }
 }
 
 // All devices up to a width of 600px = Most mobile Phones
@@ -98,8 +101,8 @@ h5.overHead {
     margin-top: 10rem;
   }
   .donateGuys {
-    height: 250px;
-    width: 330px;
+    height: 300px;
+    width: 440px;
   }
   h5.overHead {
     font-size: 1rem;
