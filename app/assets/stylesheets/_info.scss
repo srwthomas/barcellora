@@ -56,11 +56,19 @@ h5.overHead {
   font-size: 2em;
 }
 
+.donateGuys {
+  height: 300px;
+  width: 500px;
+}
 
 // Media Breakpoints (when screen is resized ie. for Iphone / Samsung, tablets etc (smaller/larger)
 
 // All devices up to a width of 400px = Most mobile Phones
 @media (max-width: 400px) {
+  .donateGuys {
+    height: 230px;
+    width: 310px;
+  }
   .imageLayout{
     display:flex;
     align-items: center;
@@ -88,6 +96,10 @@ h5.overHead {
 @media (max-width: 600px) {
   .footerContainer {
     margin-top: 10rem;
+  }
+  .donateGuys {
+    height: 250px;
+    width: 330px;
   }
   h5.overHead {
     font-size: 1rem;
