@@ -1,16 +1,17 @@
-<div class="container">
+<%# Video containers - replace only section inside div called embedVid --> iframe with link from  %>
+<%# To replace embeded video copy/paste section between <iframe .....<></iframe> %>
 
-  <%# Video containers - replace only section inside div called embedVid --> iframe with link from  %>
-  <%# To replace embeded video copy/paste section between <iframe .....<></iframe> %>
+<div class="container">
   <%# Order First Video At TOP Of Site  %>
 
-  <%# Gif %>
+  <%# gif section %>
   <div class= "gifBanner">
       <%# <a class="gifLink" href="/" style="float:none"> %>
         <%= image_tag "barcellora.gif", width:1000, height:500, class:"gifLink" %>
        <%# </a> %>
   </div>
 
+  <%# episodes section - newest at top %>
   <div id="videos">
     <div class="titleEpisode">
       <%= image_tag "episodesBtn.png", width:215, height:42 %>
@@ -48,6 +49,7 @@
       <iframe width="859" height="315" src="https://www.youtube.com/embed/6NApJGtOHfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+    <%# donate btn %>
     <div id="donateButton">
       <%= link_to 'https://buy.stripe.com/bIY16ya436nIgLeeUU' do %>
         <%= image_tag("btnDonate.png", class:"donateGuys") %>
