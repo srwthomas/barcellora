@@ -27,13 +27,26 @@
   margin-right:50em;
 }
 
-.nav-item:hover {
+// nav hover darken + bounce animation
+.nav-item {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  &:hover {
+    animation-name: navBump;
+    animation-timing-function: ease-in-out;
     -webkit-filter: brightness(80%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
+  }
+}
+@keyframes navBump {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
 }
 
 .navRow {
