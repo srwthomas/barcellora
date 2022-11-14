@@ -56,7 +56,7 @@
 // media queries (resizing)
 
 // All devices up to a width of 600 px = Most mobile Phones
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .navbar {
     flex-direction: column;
     padding-top: 0.8em;
