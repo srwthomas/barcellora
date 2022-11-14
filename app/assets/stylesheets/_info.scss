@@ -99,7 +99,8 @@ h5.overHead {
   .donateGuys {
     height: 300px;
     width: 350px;
-    margin-left: 0.1em;
+    // margin-left: 0.1em;
+    display: flex;
   }
   h5.overHead {
     font-size: 1rem;
